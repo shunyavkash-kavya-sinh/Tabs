@@ -1,3 +1,5 @@
+//Tabs js
+
 function showSection(id) {
   const sections = document.querySelectorAll(".tabs-dec");
   sections.forEach((sec) => sec.classList.remove("active-tab"));
@@ -12,6 +14,8 @@ function showSection(id) {
     }
   });
 }
+
+//dark mode js
 
 function setDarkMode() {
   document.body.classList.add("dark-mode");
