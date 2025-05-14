@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+
+    <!-- media css -->
+    <link rel="stylesheet" href="assests/css/media.css">
+</head>
+
+<body>
+    <div class="mode-toggle">
+        <button onclick="setDarkMode()" class="toggle-btn">Dark</button>
+        <button onclick="setLightMode()" class="toggle-btn">Light</button>
+    </div>
+
+    <section class="tabs-sec">
+        <div class="container">
+            <div class="tabs-wrap">
+                <!-- <div class="tabs-wrap tab-row tabs-wrap-right"> -->
+                <div class="tabs-btn">
+                    <ul>
+                        <li class="active-btn" onclick="showSection('Overview')">
+                            <a href="javascript:void(0)">
+                                Overview
+                            </a>
+                        </li>
+                        <li onclick="showSection('Features')">
+                            <a href="javascript:void(0)">
+                                Features
+                            </a>
+                        </li>
+                        <li onclick="showSection('Services')">
+                            <a href="javascript:void(0)">
+                                Services
+                            </a>
+                        </li>
+                        <li onclick="showSection('Pricing')">
+                            <a href="javascript:void(0)">
+                                Pricing
+                            </a>
+                        </li>
+                        <li onclick="showSection('Testimonials')">
+                            <a href="javascript:void(0)">
+                                Testimonials
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs-content">
+                    <div class="tabs-dec active-tab" id="Overview">
+                        <h2 class="tabs-main-title">heading title</h2>
+                        <div class="richtext">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis libero totam porro
+                                deserunt! Officiis at molestiae est maiores iste modi vel incidunt reprehenderit
+                                voluptas, asperiores neque ad aspernatur soluta pariatur quibusdam molestias dolorum
+                                necessitatibus similique. Recusandae quidem eum quia animi, iusto saepe ex vel
+                                pariatur
+                                maiores voluptatibus! Saepe rem minima ducimus voluptatibus soluta laudantium
+                                quibusdam
+                                amet itaque ea libero dignissimos sint eum maiores nostrum aliquid dolores, esse
+                                voluptatem explicabo perspiciatis laborum quidem? Minus nostrum sit laborum
+                                aspernatur
+                                modi quae numquam, recusandae hic nesciunt libero reprehenderit voluptatibus
+                                doloremque
+                                placeat ullam provident! Ex asperiores quod exercitationem fuga nulla aspernatur
+                                nisi
+                                nam officiis!
+                            </p>
+                        </div>
+                        <div class="demo-img-block">
+                            <img src="assests/images/section/demo-img.png" alt="demo-img">
+                        </div>
+                    </div>
+                    <div class="tabs-dec" id="Features">
+                        <h2 class="tabs-main-title">heading title</h2>
+                        <div class="richtext">
+                            <p>
+                                m quia animi, iusto saepe ex vel pariatur
+                                maiores voluptatibus! Saepe rem minima ducimus voluptatibus soluta laudantium
+                                quibusdam
+                                amet itaque ea libero dignissimos sint eum maiores nostrum aliquid dolores, esse
+                                voluptatem explicabo perspiciatis laborum quidem? Minus nostrum sit laborum
+                                aspernatur
+                                modi quae numquam, recusandae hic nesciunt libero reprehenderit voluptatibus
+                                doloremque
+                                placeat ullam provident! Ex asperiores quod exercitationem fuga nulla aspernatur
+                                nisi
+                                nam officiis!
+                            </p>
+                        </div>
+                        <div class="demo-img-block">
+                            <img src="assests/images/section/demo-img.png" alt="demo-img">
+                        </div>
+                    </div>
+                    <div class="tabs-dec" id="Services">
+                        <h2 class="tabs-main-title">heading title</h2>
+                        <div class="richtext">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis libero totam porro
+                                deserunt! Officiis at molestiae est maiores iste modi vel incidunt reprehenderit
+                                voluptas, asperiores neque ad aspernatur soluta pariatur quibusdam molestias dolorum
+                                necesrit voluptatibus doloremque
+                                placeat ullam provident! Ex asperiores quod exercitationem fuga nulla aspernatur
+                                nisi
+                                nam officiis!
+                            </p>
+                        </div>
+                        <div class="demo-img-block">
+                            <img src="assests/images/section/demo-img.png" alt="demo-img">
+                        </div>
+                    </div>
+                    <div class="tabs-dec" id="Pricing">
+                        <h2 class="tabs-main-title">heading title</h2>
+                        <div class="richtext">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis libero totam porro
+                                deserunt! Officiis at molestiae est maiores iste modi vel incidunt reprehenderit
+                                voluptas, asperiores neque ad aspernatur soluta pariatur quibusdam molestias dolorum
+                                necessitatibus similique. Recusandae quidem eum quia animi, iusto saepe ex vel
+                                pariatur
+                                ma laborum quidem? Minus nostrum sit laborum aspernatur
+                                modi quae numquam, recusandae hic nesciunt libero reprehenderit voluptatibus
+                                doloremque
+                                placeat ullam provident! Ex asperiores quod exercitationem fuga nulla aspernatur
+                                nisi
+                                nam officiis!
+                            </p>
+                        </div>
+                        <div class="demo-img-block">
+                            <img src="assests/images/section/demo-img.png" alt="demo-img">
+                        </div>
+                    </div>
+                    <div class="tabs-dec" id="Testimonials">
+                        <h2 class="tabs-main-title">heading title</h2>
+                        <div class="richtext">
+                            <p>
+                                Officiis at molestiae est maiores iste modi vel incidunt reprehenderit
+                                voluptas, asperiores neque ad aspernatur soluta pariatur quibusdam molestias dolorum
+                                necessitatibus similique. Recusandae quidem eum quia animi, iusto saepe ex vel
+                                pariatur
+                                maiores voluptatibus! Saepe rem minima ducimus voluptatibus soluta laudantium
+                                quibusdam
+                                amet itaque ea libero dignissimos sint eum maiores nostrum aliquid dolores, esse
+                                voluptatem explicabo perspiciatis laborum quidem? Minus nostrum sit laborum
+                                aspernatur
+                                modi quae numquam, recusandae hic nesciunt libero reprehenderit voluptatibus
+                                doloremque
+                                placeat ullam provident! Ex asperiores quod exercitationem fuga nulla aspernatur
+                                nisi
+                                nam officiis!
+                            </p>
+                        </div>
+                        <div class="demo-img-block">
+                            <img src="assests/images/section/demo-img.png" alt="demo-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assests/js/main.js"></script>
+</body>
+
+</html>
